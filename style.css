@@ -1,0 +1,85 @@
+
+/*--------------------------------------------------------------------*/
+
+ul.a{
+  
+    list-style-type: none; 
+
+    height: 50px;
+    background:black;
+    margin-bottom:0px;
+}
+a{
+    text-decoration: none;
+ 
+}
+
+
+.a li{
+    float: left;
+   
+}
+li a{
+    margin-left: -46px;
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    display: block;
+    padding: 15px 20px 10px ;
+}
+
+
+
+.slider{
+    background-image: linear-gradient(to right,rgb(101, 130, 255),rgb(91, 192, 255),rgb(147, 207, 247,0.7));
+    box-shadow: 0px -10px 10px 4px rgb(0,0,0,0.2 );
+    
+
+}
+.slider-img{
+    width: 1230px;
+    margin: 10px 0px -4px 10px;
+
+
+
+   
+   
+}
+.image{
+    width: 200px;
+    height: 200px;
+    padding:15px 400px 100px 25px ;
+  
+}
+
+.img{
+  
+    margin-top: -10px;
+    box-shadow: 0px 1px 7px rgb(0, 0, 0,0.5);
+    position: absolute;
+    padding: 0px 622px 140px 0px;
+    background-image: linear-gradient(to right,rgb(101, 130, 255),rgb(91, 192, 255),rgb(147, 207, 247,0.7));
+}
+.p-text{
+    position: relative;
+    column-count: 4;
+    /*column-width: 250px;*/
+    padding: 15px;
+    margin:0 9px 3px 225px;
+    column-fill: auto;
+    text-align: justify;
+    column-rule: 2px rgb(0, 0, 0) solid;
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+
+    padding: 0px 0px 5px 20px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+
